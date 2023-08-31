@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora v1.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        <table class="calc">
+            <tr>
+                <td colspan="4" class="tela">
+                    <div class="tela" id="painel"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input onclick="WriteNum('7')" type="button" value="7">
+                </td>
+                <td>
+                    <input onclick="WriteNum('8')" type="button" value="8">
+                </td>
+                <td>
+                    <input onclick="WriteNum('9')" type="button" value="9">
+                </td>
+                <td>
+                    <input onclick="WriteOp('+')" type="button" value="+" class="op">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input onclick="WriteNum('4')" type="button" value="4">
+                </td>
+                <td>
+                    <input onclick="WriteNum('5')" type="button" value="5">
+                </td>
+                <td>
+                    <input onclick="WriteNum('6')" type="button" value="6">
+                </td>
+                <td>
+                    <input onclick="WriteOp('-')" type="button" value="-" class="op">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input onclick="WriteNum('1')" type="button" value="1">
+                </td>
+                <td>
+                    <input onclick="WriteNum('2')" type="button" value="2">
+                </td>
+                <td>
+                    <input onclick="WriteNum('3')" type="button" value="3">
+                </td>
+                <td>
+                    <input onclick="WriteOp('/')" type="button" value="/" class="op">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input onclick="Clear()" type="button" value="C" class="act">
+                </td>
+                <td>
+                    <input onclick="WriteNum('0')" type="button" value="0">
+                </td>
+                <td>
+                    <input onclick="Equals()" type="button" value="=" class="act">
+                </td>
+                <td>
+                    <input onclick="WriteOp('x')" type="button" value="x" class="op">
+                </td>
+            </tr>
+        </table>
+    </main>
+    
+    <script src="script2.js"></script>
+</body>
+</html>
