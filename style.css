@@ -11,7 +11,7 @@ body {
 
 header {
     background-image: linear-gradient(to top, #0000ff, #4646ff);
-    height: 120px;
+    max-height: 150px;
     text-align: center;
     justify-content: center;
 }
@@ -24,8 +24,8 @@ header h1, header p {
 main {
     background-color: #fff;
 
-    min-height: 400px;
-    min-width: 500px;
+    min-height: 500px;
+    min-width: 250px;
     max-width: 1000px;
 
     margin: auto;
@@ -58,6 +58,7 @@ main section.desc {
 
 section.desc > img {
     width: 200px;
+    max-height: 200px;
     margin: -10px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -80,16 +81,11 @@ a.link {
 
 footer {
     width: 97vw;
+    margin: auto;
+
     background-color: #0000ff;
     color: #fff;
 
     padding: 10px;
     text-align: center;
-
-    z-index: -1;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-
-    transform: translate(-50%, -100%);
 }
