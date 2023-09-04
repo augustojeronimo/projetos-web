@@ -1,0 +1,45 @@
+:root {
+    --bg: #1b0035;
+
+    --txtColor: #000;
+    --calcColor: #2949da;
+    --dispColor: #bebebe;
+}
+
+* {
+    margin: none;
+    padding: none;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--bg);
+}
+
+main {
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+
+    min-width: 250px;
+    max-width: 300px;
+    height: 400px;
+    padding: 5px;
+
+    margin: auto;
+    border-radius: 5px;
+}
+
+section#tela {
+    background-color: var(--dispColor);
+
+    height: 30%;
+    padding: 10px;
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
